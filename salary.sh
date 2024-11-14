@@ -9,6 +9,9 @@ echo "5% tax"
 elif [ $salary -gt 25000 ];
 then 
 echo "10% tax"
+elif [ $salary -eq 10000 ];
+then 
+echo "2% tax"
 else
 echo "salary not within the range"
 fi
